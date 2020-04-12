@@ -1,12 +1,7 @@
-const changhee ={
-    name:"changhee",
-    age: 18,
-    gender:"female"
-}
-const resolvers ={
+import {people} from './db'
+const resolvers={
     Query:{
-        person: () => changhee
+        people : () =>people
     }
-};
-
+}
 export default resolvers;
