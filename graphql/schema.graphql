@@ -1,0 +1,10 @@
+type Query{
+    person: changhee!
+
+}
+
+type changhee{
+    name: String!
+    age: Int!
+    gender:String!
+}
